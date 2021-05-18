@@ -1,0 +1,8 @@
+{
+  "name": "callsmusic-2",
+  "description": "Play VC",
+  "version": "1.0.0",
+  "engines": {
+    "node": "15.x"
+  }
+}
