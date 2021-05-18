@@ -21,11 +21,11 @@ from callsmusic.helpers.filters import command
 from callsmusic.helpers.filters import other_filters
 
 
-@Client.on_message(command('skip') & other_filters)
+@Client.on_message(command('cskip') & other_filters)
 @errors
 @authorized_users_only
 async def _(_, message: Message):
     if skip(message.chat.id):
-        await message.reply_text('Skipped!')
+        await message.reply_text('Skipped Song!')
     else:
         await message.reply_text('Nothing is playing!')
