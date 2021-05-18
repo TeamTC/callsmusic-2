@@ -3,3 +3,5 @@ pyrogram
 python-dotenv
 TgCrypto
 youtube_dl
+youtube_search_python
+ffmpeg
