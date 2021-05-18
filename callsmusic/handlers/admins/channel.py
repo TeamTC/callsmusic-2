@@ -43,4 +43,4 @@ async def _(_, message: Message):
         if set_channel(message.chat.id, chat_id):
             await message.reply('Channel set!')
         else:
-            await message.reply('Channel is already this!')
+            await message.reply('Channel is already added!')
