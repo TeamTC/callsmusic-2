@@ -2,6 +2,23 @@
 
 ## Please deploy ooriginal bot because im editing this for my personal use 
 
+
+### :octocat: Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamTC/callsmusic-2)
+
+
+## ℹ️ Commands
+
+| Command  | Description                                  |
+| -------- | -------------------------------------------- |
+| /play    | play the replied audio file or YouTube video |
+| /pause   | pause the audio stream                       |
+| /resume  | resume the audio stream                      |
+| /skip    | skip the current audio stream                |
+| /stop    | clear the queue and stop the audio stream    |
+| /channel | set chat channel                             |
+
 ## ✍️ Requirements
 
 - FFmpeg
@@ -35,21 +52,6 @@ Copy `example.env` to `.env` and fill it with your credentials.
    ```bash
    docker run --env-file .env musicplayer
    ```
-
-### 💵 Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamTC/callsmusic-2)
-
-## ℹ️ Commands
-
-| Command  | Description                                  |
-| -------- | -------------------------------------------- |
-| /play    | play the replied audio file or YouTube video |
-| /pause   | pause the audio stream                       |
-| /resume  | resume the audio stream                      |
-| /skip    | skip the current audio stream                |
-| /stop    | clear the queue and stop the audio stream    |
-| /channel | set chat channel                             |
 
 ## 📄 License
 
